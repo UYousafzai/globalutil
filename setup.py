@@ -11,9 +11,9 @@ setup(
     description="A global utility package for all the data sorting and inspection needs.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/UYousafzai/gutil",
+    url="https://github.com/UYousafzai/globalutil",
     project_urls={
-        "Bug Tracker": "https://github.com/UYousafzai/gutil/issues",
+        "Bug Tracker": "https://github.com/UYousafzai/globalutil/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
