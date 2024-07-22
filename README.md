@@ -3,7 +3,8 @@
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Welcome to `globalutil`, your one-stop solution for all your file and directory management needs! 🚀
+`globalutil` currently open source part includes file and folder management scripts. future release will include alot of features for building auto training pipeline scripts (ML Pipelines) for python.
+
 
 ## 🌈 Features
 
@@ -25,7 +26,7 @@ Welcome to `globalutil`, your one-stop solution for all your file and directory 
 
 ## 🎯 Vision
 
-`globalutil` is on a mission to become the Swiss Army knife of utility packages. We've expanded our capabilities to cover a wide range of file and directory operations!
+`globalutil` could become the Swiss Army knife of ML related utility tools. currently supporting wide range of file and directory operations!
 
 ## 🚀 Quick Start
 
