@@ -1,4 +1,4 @@
-# gutil/__init__.py
+# globalutil/__init__.py
 
 from . import filesystem
 

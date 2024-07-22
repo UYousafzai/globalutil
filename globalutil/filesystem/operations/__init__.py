@@ -1,4 +1,4 @@
-# gutil/filesystem/operations/__init__.py
+# globalutil/filesystem/operations/__init__.py
 
 from .sort import Sort, SortCheck
 from .organizer import FileOrganizer

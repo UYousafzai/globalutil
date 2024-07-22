@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-gutil is a Python library that provides utilities for file system operations, including file analysis, searching, organizing, and more. It's designed to simplify common file system tasks and provide a unified interface for various file-related operations.
+globalutil is a Python library that provides utilities for file system operations, including file analysis, searching, organizing, and more. It's designed to simplify common file system tasks and provide a unified interface for various file-related operations.
 
 ## Installation
 
-You can install gutil using pip:
+You can install globalutil using pip:
 
 ```bash
 pip install globalutil (currently in publishing)
@@ -20,7 +20,7 @@ Clone the repository and use the requirements.txt to install dependencies.
 
 ```
 .
-├── gutil/
+├── globalutil/
 │   ├── filesystem/
 │   │   ├── inspections/
 │   │   │   ├── __init__.py
@@ -50,7 +50,7 @@ Clone the repository and use the requirements.txt to install dependencies.
 
 ## Modules
 
-### gutil.filesystem.inspections
+### globalutil.filesystem.inspections
 
 This module contains classes for inspecting and analyzing files and directories.
 
@@ -94,7 +94,7 @@ The `RecentFiles` class provides methods for finding recently modified files.
 Methods:
 - `find_recent_files(directory: str, days: int)`: Find files modified or created within the specified number of days.
 
-### gutil.filesystem.operations
+### globalutil.filesystem.operations
 
 This module contains classes for performing various file system operations.
 
@@ -147,7 +147,7 @@ Methods:
 ### Copying specific file types to a single folder
 
 ```python
-from gutil.filesystem import Inspect, Sort
+from globalutil.filesystem import Inspect, Sort
 
 # Generate the copy structure
 structure = Inspect.generate_copy_structure("./", "./temp")
@@ -159,7 +159,7 @@ Sort.copy_structure(structure, patterns=["*.py"])
 ### Generating a tree structure of your project
 
 ```python
-from gutil.filesystem import Inspect
+from globalutil.filesystem import Inspect
 
 # Generate the directory tree
 tree = Inspect.get_directory_tree(".")

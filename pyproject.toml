@@ -29,8 +29,8 @@ dependencies = [
 requires-python = ">=3.6"
 
 [project.urls]
-Homepage = "https://github.com/UYousafzai/gutil"
-"Bug Tracker" = "https://github.com/UYousafzai/gutil/issues"
+Homepage = "https://github.com/UYousafzai/globalutil"
+"Bug Tracker" = "https://github.com/UYousafzai/globalutil/issues"
 
 [tool.setuptools]
-packages = ["gutil"]
+packages = ["globalutil"]

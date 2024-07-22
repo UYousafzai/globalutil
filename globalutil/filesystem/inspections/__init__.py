@@ -1,4 +1,4 @@
-# gutil/filesystem/inspections/__init__.py
+# globalutil/filesystem/inspections/__init__.py
 
 from .inspect import Inspect
 from .analyzer import FileAnalyzer
