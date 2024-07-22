@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "globalutil"
+version = "0.3.6"
+description = "A global utility package for all the data sorting and inspection needs."
+readme = "README.md"
+authors = [{ name = "Umar Khan", email = "umaryousafzai9@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+keywords = ["utility", "filesystem", "sorting", "inspection", "global"]
+dependencies = [
+    # Add your dependencies here, for example:
+    # "requests>=2.25.1",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/UYousafzai/gutil"
+"Bug Tracker" = "https://github.com/UYousafzai/gutil/issues"
+
+[tool.setuptools]
+packages = ["gutil"]
