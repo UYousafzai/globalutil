@@ -9,7 +9,7 @@ globalutil is a Python library that provides utilities for file system operation
 You can install globalutil using pip:
 
 ```bash
-pip install globalutil (currently in publishing)
+pip install globalutil
 ```
 
 ```
@@ -40,8 +40,7 @@ Clone the repository and use the requirements.txt to install dependencies.
 │   │   └── __init__.py
 │   └── __init__.py
 ├── tests/
-│   ├── test_gutil_filesystem.py
-│   └── test_lakesync.py
+│   └── test_gutil_filesystem.py
 ├── LICENSE
 ├── README.md
 ├── pyproject.toml

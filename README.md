@@ -32,26 +32,17 @@ Welcome to `globalutil`, your one-stop solution for all your file and directory 
 ### Installation
 
 ```bash
-pip install globalutil (currently unavailable, in publishing)
-```
-
-
-### Use Case
-# globalutil
-
-globalutil is a Python library that provides utilities for file system operations, including file analysis, searching, organizing, and more.
-
-## Installation
-
-You can install globalutil using pip:
-
-```bash
 pip install globalutil
 ```
 
+
 ## Usage
 
-## Example Use Case: Preparing Files for LLM Upload
+### globalutil
+
+globalutil is a Python library that provides utilities for file system operations, including file analysis, searching, organizing, and more.
+
+### Example Use Case: Preparing Files for LLM Upload
 
 When working with Large Language Models (LLMs), it's often useful to have all relevant files in a single location and to have a clear understanding of the project structure. Here's how you can use globalutil to prepare your files for LLM upload:
 
