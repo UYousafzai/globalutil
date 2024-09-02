@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="globalutil",
-    version="0.3.8",
+    version="0.4.0",
     author="Umar Khan",
     author_email="umaryousafzai9@gmail.com",
     description="A global utility package for all the data sorting and inspection needs.",

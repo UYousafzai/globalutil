@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "globalutil"
-version = "0.3.8"
+version = "0.4.0"
 description = "A global utility package for all the data sorting and inspection needs."
 readme = "README.md"
 authors = [{ name = "Umar Khan", email = "umaryousafzai9@gmail.com" }]
